@@ -1,10 +1,16 @@
 #+TITLE: Suivi et évolutions pour sharelex.org
 
-* Survol
+* Présentation
 
 Le site web [[http://www.sharelex.org][www.sharelex.org]] utilise le logiciel libre [[http://www.discourse.org][Discourse]] pour
 l'affichage et l'édition des questions-réponses produits lors des
 réunions des groupes de travail thématique (les « LaboLex »).
+
+* Bandeau du haut
+
+- Supprimer le bandeau du haut qui mange la moitié de l'écran.
+
+- Ne garder que les liens vers les pages statiques (et encore ?)
 
 * Module discourse pour la gestion des événements
 
