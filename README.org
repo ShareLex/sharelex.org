@@ -31,18 +31,12 @@ Alban l'a annoncé à la communauté Discourse en décembre 2015 [[https://meta.
 
 Plusieurs idées d'évolution ont été proposées :
 
-1. permettre de nommer les pages ([[https://meta.discourse.org/t/easy-to-use-static-pages-plugin/36280/3][lien]]).
-   : instead of /pages/1/ etc. site.com/page_name or site.com/p/page_name
-
-2. permettre de renommer 'page' ([[https://meta.discourse.org/t/easy-to-use-static-pages-plugin/36280/5][lien]]).
-   : Example: from /page/ to page_name/
-
-3. avoir une feuille de style par page ([[https://meta.discourse.org/t/easy-to-use-static-pages-plugin/36280/7][lien]]).
-
+1. permettre de nommer les pages ([[https://meta.discourse.org/t/easy-to-use-static-pages-plugin/36280/3][lien]]);
+2. permettre de renommer 'page' ([[https://meta.discourse.org/t/easy-to-use-static-pages-plugin/36280/5][lien]]);
+3. avoir une feuille de style par page ([[https://meta.discourse.org/t/easy-to-use-static-pages-plugin/36280/7][lien]]);
 4. implémenter les niveaux de confiance utilisateur ([[https://meta.discourse.org/t/easy-to-use-static-pages-plugin/36280/11][lien]]).
-   : support login or trust level protection?
 
-Deux bugs ont été rapporté :
+Deux bugs ont été rapportés :
 
 1. [[https://github.com/nukomeet/discourse-static-pages/issues/2][Error viewing Pages Plugin in Admin #2]]
 2. [[https://github.com/ShareLex/discourse-static-pages/issues/1][Could not find module `discourse/components/hamburger-menu`]]
