@@ -1,16 +1,11 @@
 #+TITLE: Suivi et évolutions pour sharelex.org
+#+ARCHIVE: README_archive.org::
 
 * Présentation
 
 Le site web [[http://www.sharelex.org][www.sharelex.org]] utilise le logiciel libre [[http://www.discourse.org][Discourse]] pour
 l'affichage et l'édition des questions-réponses produits lors des
 réunions des groupes de travail thématique (les « LaboLex »).
-
-* Bandeau du haut
-
-- Supprimer le bandeau du haut qui mange la moitié de l'écran.
-
-- Ne garder que les liens vers les pages statiques (et encore ?)
 
 * Module discourse pour la gestion des événements
 
@@ -47,6 +42,23 @@ Deux bugs ont été rapportés :
 1. [[https://github.com/nukomeet/discourse-static-pages/issues/2][Error viewing Pages Plugin in Admin #2]]
 2. [[https://github.com/ShareLex/discourse-static-pages/issues/1][Could not find module `discourse/components/hamburger-menu`]]
 
+* Module pour l'export PDF
+
+** Gérer la mise en page d'un sujet
+
+https://meta.discourse.org/t/print-long-topic-to-pdf-redux-again/44639
+
+** Gérer la mise en page des sujets d'une catégorie
+
+* Module « social » pour afficher des profils
+
+Pouvoir afficher dans une seule page tous les profils
+
+- de sharelex
+- d'un groupe
+- d'une catégorie
+
+* Comment intégrer des contenus du forum sur un autre site ?
 * Gestion des contenus multilingues
 
 Il y a peu de contenus dans d'autres langues que le français, mais que
@@ -54,8 +66,9 @@ faire si ces contenus venaient à se multiplier ?
 
 * Liste de tâches de configuration/maintenance
 
+- [ ] Corriger le bug sur le plugin « pages statiques »
 - [ ] Configurer connexion SSL ([[https://meta.discourse.org/t/setting-up-lets-encrypt/40709][voir ces instructions]])
-- [ ] Configurer la passerelle mail
+- [X] Configurer la passerelle mail (<2016-06-09.>)
 - [X] Mettre à jour Discourse (<2016-06-01 mer.>)
 - [X] Mettre à jour docker (<2016-06-01 mer.>)
 - [X] Installation plugin [[https://meta.discourse.org/t/event-signup-sheet-plugin/40822][event signups]]

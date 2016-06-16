@@ -1,0 +1,17 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/guerry/Documents/sharelex/sharelex.org/README.org
+
+
+* Bandeau du haut
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2016-06-16 jeu. 09:28
+  :ARCHIVE_FILE: ~/Documents/sharelex/sharelex.org/README.org
+  :ARCHIVE_CATEGORY: README
+  :END:
+
+- Supprimer le bandeau du haut qui mange la moitié de l'écran.
+
+- Ne garder que les liens vers les pages statiques (et encore ?)
+
